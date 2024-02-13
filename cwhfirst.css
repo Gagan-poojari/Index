@@ -1,0 +1,85 @@
+*{
+    color:rgb(0, 255, 0);
+    font-size:20px;
+    background-color:rgb(0, 0, 0);
+}
+::selection{
+    background-color: #00ff00;
+    color:#000000;
+}
+::placeholder{
+    color: #00ff00;
+}
+.inputname{
+    line-height: 1px;
+}
+.namebox{
+    height:30px;
+    width:300px;
+    padding-left:7px;
+    font-size:17px;
+    border-radius:5px;
+    background-color: #000000;
+}
+
+.typingspeed{
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 30px;
+}
+.congo{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness:2px;
+    text-decoration-color: green;
+}
+.shadow{
+    display:inline-block;
+    margin-left:20px;
+    border-radius:10px;
+    box-shadow: 0px 0px 20px 10px #00ff00;
+}
+.random{
+    display:flex;
+    align-items: center;
+}
+.extrasymbs{
+    margin-right: 5vw;
+    list-style:none;
+    list-style-position:inside;
+    list-style-type:"🤫🧏‍♀️";
+    /* list-style-image: url("goat.jpg"); */
+    /* list-style:"🤫🧏‍♀️" inside url("goat.jpg");; */
+}
+.abtrono{
+    margin-top:2vw;
+    height:10vw;
+    width:98vw;
+    border: 5px dotted #ffffff;
+    border-right: 0px;
+    overflow:hidden scroll;
+    text-align: justify;
+}
+.chipichipi{
+    position: fixed;
+    top: 1vw;
+    left:88vw;
+    border-radius: 5px;
+}
+.goatnaldo:hover{
+    animation: animation1 5s ease-in-out 0s infinite alternate;
+    transform:scale(2);
+}
+@keyframes animation1{
+    from{
+        opacity: 5%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+.goatnaldo{
+    opacity: 5%;
+    margin-top:2vw;
+    width:40vw;
+    transition:transform 5s ease-in-out;
+}
